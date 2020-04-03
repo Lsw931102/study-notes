@@ -12,7 +12,7 @@
 1.cookie存储大小受限，只有4kb,web storage有5M左右。  
 2.web storage都保存在客户端，不与服务器进行交互通信,节省了网络流量；cookie的作用是与服务器进行交互，作为http规范的一部分而存在，在每次请求一个新的页面的时候cookie都会被发送过去，比较浪费带宽。  
 
-![对比图](../images/js/storage.png)
+![对比图](../../images/js/storage.png)
 
 ## cookie与session
 
@@ -32,7 +32,7 @@ session是由cookie进行标记的。当需要记住用户时，比如前面说�
 
 ## 概念解释
 
-**同源：**指两个 URL 的协议/主机名/端口一致。例如，https://www.taobao.com/pages/...，它的协议是 https，主机名是 www.taobao.com，端口是 443.  
+**同源：**指两个 URL 的协议/主机名/端口一致。例如，https://www.taobao.com/pages/...，它的协议是https，主机名是 www.taobao.com，端口是 443.  
 **同站：**只要两个 URL 的 eTLD+1 相同即可，不需要考虑协议和端口,eTLD 表示有效顶级域名，注册于 Mozilla 维护的公共后缀列表（Public Suffix List）中，例如，.com、.co.uk、.github.io 等。eTLD+1 则表示，有效顶级域名+二级域名，例如 taobao.com 等。  
 *举例：*www.taobao.com 和 www.baidu.com 是跨站，www.a.taobao.com 和 www.b.taobao.com 是同站，a.github.io 和 b.github.io 是跨站(注意是跨站)。
 
