@@ -12,7 +12,7 @@
 1.cookie存储大小受限，只有4kb,web storage有5M左右。  
 2.web storage都保存在客户端，不与服务器进行交互通信,节省了网络流量；cookie的作用是与服务器进行交互，作为http规范的一部分而存在，在每次请求一个新的页面的时候cookie都会被发送过去，比较浪费带宽。  
 
-![对比图](../../images/js/storage.png)
+![对比图](../images/storage.png)
 
 ## cookie与session
 
